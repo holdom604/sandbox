@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586033A76E02CA956DA7CC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58603824C9F6E3B2C59BDABE /* AppDelegate.m */; };
+		586035C0D330135E7B63BEBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58603049DFB4A4462E8DCD3A /* InfoPlist.strings */; };
+		5860382DCCE5D9AFE1A494BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58603A4C35B529435470DF9B /* Cocoa.framework */; };
+		58603BCE062CE13222AC3B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5860315140C2011115C6F613 /* main.m */; };
+		58603BEA5B28FDF91931A6A6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 58603C981CEA99949694F117 /* Credits.rtf */; };
+		58603C747197CC60D391894D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586031A114A5316AA7B30F35 /* MainMenu.xib */; };
+		84C7895816F426AA00D17358 /* appicns_iPhoto.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84C7895716F426AA00D17358 /* appicns_iPhoto.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5860315140C2011115C6F613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5860317762EBB95C3E5B85E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		586036CF3EDC8FE2EB0CF57F /* PictureOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58603824C9F6E3B2C59BDABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5860395C289608498E0BBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		58603A4C35B529435470DF9B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		58603C5F06D422CA70D53585 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58603CA16DD0F3BAC83EBB99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58603E1F3530EEF67A312581 /* PictureOrganizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictureOrganizer-Prefix.pch"; sourceTree = "<group>"; };
+		58603E9082D4B6531DFB4E2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		58603EA6887ADECB7DB9B8B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		58603F0116D4C84599885302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C7895716F426AA00D17358 /* appicns_iPhoto.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = appicns_iPhoto.icns; path = ../appicns_iPhoto.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58603BA767EE5872BB8E3813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860382DCCE5D9AFE1A494BB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58603175FCF479AD52763D75 /* PictureOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				58603E7FBCB372BF8770A6F6 /* Supporting Files */,
+				58603C5F06D422CA70D53585 /* AppDelegate.h */,
+				58603824C9F6E3B2C59BDABE /* AppDelegate.m */,
+				586031A114A5316AA7B30F35 /* MainMenu.xib */,
+			);
+			path = PictureOrganizer;
+			sourceTree = "<group>";
+		};
+		5860319FA9EB4FAE42A2908F = {
+			isa = PBXGroup;
+			children = (
+				5860340FAC43BEC1FDC4B152 /* Products */,
+				58603F13912AC79D0C0952B5 /* Frameworks */,
+				58603175FCF479AD52763D75 /* PictureOrganizer */,
+			);
+			sourceTree = "<group>";
+		};
+		5860340FAC43BEC1FDC4B152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586036CF3EDC8FE2EB0CF57F /* PictureOrganizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58603E7FBCB372BF8770A6F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C7895716F426AA00D17358 /* appicns_iPhoto.icns */,
+				58603049DFB4A4462E8DCD3A /* InfoPlist.strings */,
+				5860315140C2011115C6F613 /* main.m */,
+				58603E1F3530EEF67A312581 /* PictureOrganizer-Prefix.pch */,
+				58603C981CEA99949694F117 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58603F134CA9296C7E1A1BD6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58603EA6887ADECB7DB9B8B0 /* AppKit.framework */,
+				5860317762EBB95C3E5B85E0 /* CoreData.framework */,
+				58603CA16DD0F3BAC83EBB99 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		58603F13912AC79D0C0952B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58603A4C35B529435470DF9B /* Cocoa.framework */,
+				58603F134CA9296C7E1A1BD6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58603789A550166035765C25 /* PictureOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860307ACAD7E6B44B5108F0 /* Build configuration list for PBXNativeTarget "PictureOrganizer" */;
+			buildPhases = (
+				5860366B1B38800B576069A1 /* Sources */,
+				58603BA767EE5872BB8E3813 /* Frameworks */,
+				5860348005BB18E88AF9D120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureOrganizer;
+			productName = PictureOrganizer;
+			productReference = 586036CF3EDC8FE2EB0CF57F /* PictureOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5860354BCCB342C35A017A52 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 58603DF553A773B0E47A9464 /* Build configuration list for PBXProject "PictureOrganizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5860319FA9EB4FAE42A2908F;
+			productRefGroup = 5860340FAC43BEC1FDC4B152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58603789A550166035765C25 /* PictureOrganizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5860348005BB18E88AF9D120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586035C0D330135E7B63BEBF /* InfoPlist.strings in Resources */,
+				58603BEA5B28FDF91931A6A6 /* Credits.rtf in Resources */,
+				58603C747197CC60D391894D /* MainMenu.xib in Resources */,
+				84C7895816F426AA00D17358 /* appicns_iPhoto.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5860366B1B38800B576069A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58603BCE062CE13222AC3B1C /* main.m in Sources */,
+				586033A76E02CA956DA7CC64 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58603049DFB4A4462E8DCD3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58603F0116D4C84599885302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		586031A114A5316AA7B30F35 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5860395C289608498E0BBB6A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		58603C981CEA99949694F117 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58603E9082D4B6531DFB4E2B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58603264CB10E1555C821C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5860328E6EB6EA73B1ADF084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		58603C1D8BACEE0F539FF77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureOrganizer/PictureOrganizer-Prefix.pch";
+				INFOPLIST_FILE = "PictureOrganizer/PictureOrganizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58603E64F5E53E8D8BDFE1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureOrganizer/PictureOrganizer-Prefix.pch";
+				INFOPLIST_FILE = "PictureOrganizer/PictureOrganizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5860307ACAD7E6B44B5108F0 /* Build configuration list for PBXNativeTarget "PictureOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58603E64F5E53E8D8BDFE1C3 /* Release */,
+				58603C1D8BACEE0F539FF77D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58603DF553A773B0E47A9464 /* Build configuration list for PBXProject "PictureOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860328E6EB6EA73B1ADF084 /* Release */,
+				58603264CB10E1555C821C26 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5860354BCCB342C35A017A52 /* Project object */;
+}
